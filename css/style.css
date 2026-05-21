@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(173, 207, 170);
+    color: #130101;
+    line-height: 1.7;
+}
+
+header{
+    background-color:#2e7739;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.menu{
+    text-align: center;
+    background-color: #f0f4f8;
+    padding: 15px;
+    border-bottom: 2px solid green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 100;
+}
+.menu a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.menu a:hover,.ativo{
+    border-bottom:2px solid orange ;
+
+}
+
+.emoji{
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h1{
+    color: #eff1f1;
+    font-size: 2.2em;
+    margin: opx 0 10px;
+}
+
+section{
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.primeiro{
+    background-color: #c4f3cd;
+    max-width: 100%;
+}
+
+.segundo{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.terceira{
+    background-color: #c4f3cd;
+    }
+
+
+
+
+li{
+    background-color: aliceblue;
+    padding: 12px 18px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border-width: 5px solid #bbd9be;
+}
+
+footer{ 
+    background-color: rgb(1, 100, 67);
+    color: rgb(18, 18, 16);
+    text-align: center;
+    cursor: default;
+}
+
+.link-voltar{
+    display: inline-block;
+    background-color: #f69337;
+    color: black;
+    border-radius: 30px;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
