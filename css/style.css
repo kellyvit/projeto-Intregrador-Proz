@@ -40,11 +40,18 @@ header{
 
 }
 
-.emoji{
+.prim-img{
     font-size: 80px;
     margin-bottom: 10px;
     text-align: center;
 }
+
+.seg-img{
+    font-size: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 
 h1{
     color: #eff1f1;
